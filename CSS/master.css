@@ -1,0 +1,102 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    background-image: url('../imgs/human-artificial-intelligence.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+/* Start Landing Page */
+.landing-page {
+    
+}
+.landing-page .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.header-area {
+    position: relative;
+    z-index: 2;
+    color: white;
+    background-color: rgba(33, 150, 243, 0.26);
+    display: flex;
+    padding: 10px;
+}
+.header-area .logo {
+    width: 444px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-area .logo a {
+    text-decoration:none;
+    color: white;
+    
+}
+.header-area .pages {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0%;
+    padding-right: 20px;
+    font-size: 21px;
+}
+.header-area .pages li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area .pages li a {
+    text-decoration: none;
+    color: white;
+}
+.header-area .pages li a:hover,
+.header-area .pages li a.active-page {
+    color: teal;
+}
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font: 600;
+    position: absolute;
+    left: 45%;
+    right: -10%;
+    color: wheat;
+    z-index: 5;
+    transform: translate(-43%);
+}
+.content p {
+    font-size: 19px;
+}
+.content-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 105%;
+    top: 0;
+    bottom: 0;
+    left: -19px;
+    z-index: -1;
+}
+table {
+    border: whitesmoke;
+    text-align: center;
+}
+th {
+    font-size: 30px;
+    padding: 10px;
+}
+td {
+    font-size: 20px;
+    padding: 10px;
+}
+/* End Landing Page */
